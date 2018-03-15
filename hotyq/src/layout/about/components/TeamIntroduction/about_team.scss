@@ -1,0 +1,169 @@
+@charset 'utf-8';
+.teamIntroduction {
+    width: 1100px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 10px;
+    dl {
+        width: 1060px;
+        height: 340px;
+        margin-bottom: 30px;
+        dt {
+            float: left;
+            width: 340px;
+            height: 340px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all 0.4s linear;
+            }
+        }
+        dd {
+            padding: 36px 30px 0 20px;
+            float: left;
+            height: 340px;
+            width: 720px;
+            border: 1px solid #eee;
+            border-left: none;
+            overflow: hidden;
+            h3 {
+                font-size: 18px;
+                line-height: 1;
+                height: 1em;
+                color: #333;
+                font-weight: 600;
+                margin-bottom: 23px;
+                span {
+                    font-weight: normal;
+                }
+            }
+            .pTop {
+                margin-top: 63px;
+            }
+            p {
+                width: 100%;
+                line-height: 28px;
+                font-size: 14px;
+                color: #333;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+            }
+            h5 {
+                height: 28px;
+                font-size: 14px;
+                color: #333;
+                line-height: 28px;
+                margin-top: 40px;
+                font-weight: normal;
+            }
+        }
+        &:hover {
+            box-shadow: 0 0 22px #f3f3f3;
+            dd {
+                border: 1px solid transparent;
+                border-left: none;
+            }
+            img {
+                transform: scale(1.2);
+            }
+        }
+    }
+    dl:nth-child(even) {
+        dt {
+            float: right;
+        }
+        dd {
+            float: right;
+            border: 1px solid #eee;
+            border-right: none;
+        }
+        &:hover {
+            box-shadow: 0 0 22px #f3f3f3;
+            dd {
+                border: 1px solid transparent;
+                border-right: none;
+            }
+            img {
+                transform: scale(1.2);
+            }
+        }
+    }
+    ul.staffBox {
+        overflow: hidden;
+        li {
+            height: 374px;
+            width: 340px;
+            margin-right: 20px;
+            margin-bottom: 24px;
+            overflow: hidden;
+            float: left;
+            .imgWrap {
+                overflow: hidden;
+                width: 340px;
+                height: 270px;
+            }
+            img {
+                float: left;
+                width: 340px;
+                height: 270px;
+                object-fit: cover;
+                transition: all 0.4s linear; 
+            }
+            .stafftxt {
+                float: left;
+                width: 340px;
+                height: 104px;
+                padding: 10px 12px;
+                overflow: hidden;
+                h3 {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #313;
+                    line-height: 24px;
+                    height: 24px;
+                    margin-bottom: 10px;
+                    span {
+                        font-size: 16px;
+                        font-weight: normal;
+                    }
+                }
+                p {
+                    width: 100%;
+                    color: #5e5e5e;
+                    font-size: 12px;
+                    line-height: 16px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                }
+            }
+            &:hover {
+                box-shadow: 0 0 22px #f3f3f3;
+                img {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+    .imgBox {
+        margin-bottom: 100px;
+        img {
+            width: 700px;
+        }
+        p {
+            margin-top: 24px;
+            line-height: 1;
+            height: 1em;
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+        }
+    }
+}

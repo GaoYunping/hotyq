@@ -1,0 +1,567 @@
+.jgldq .banner {
+  width: 100%;
+  height: 680px;
+  object-fit: cover;
+  object-position: center; }
+
+.jgldq .title {
+  width: 100%;
+  height: 120px;
+  background-image: url(./img/j_title_bg.png);
+  background-size: cover;
+  background-position: center;
+  display: box;
+  display: -moz-box;
+  display: -webkit-box;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  box-pack: center;
+  -ms-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -ms-justify-content: center;
+  -moz-justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -moz-align-items: center;
+  -webkit-align-items: center; }
+  .jgldq .title img {
+    margin-top: 5px; }
+
+.jgldq .jgldqContent {
+  background-color: #fff7be;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 10px; }
+  .jgldq .jgldqContent > div {
+    width: 100%;
+    height: 100%;
+    border-image: url(./img/j_border_bg.png) 29 29 stretch;
+    border-image-width: 29px;
+    position: relative; }
+
+.jgldq .screen1 {
+  width: 100%;
+  font-weight: bold; }
+  .jgldq .screen1 .content {
+    width: 100%;
+    height: 470px;
+    background-color: #c40026;
+    background-image: url(./img/j_screen1_bg.png);
+    background-size: cover;
+    background-position: center;
+    display: box;
+    display: -moz-box;
+    display: -webkit-box;
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    box-pack: center;
+    -ms-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -webkit-justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center; }
+    .jgldq .screen1 .content > div {
+      width: 1000px;
+      height: 370px;
+      background-color: #fff7be;
+      padding: 10px; }
+      .jgldq .screen1 .content > div > div {
+        width: 100%;
+        height: 100%;
+        border-image: url(./img/j_border_bg.png) 29 29 stretch;
+        border-image-width: 29px;
+        position: relative;
+        padding: 30px 90px 30px 265px;
+        /*border-image-source:url(./img/j_border_bg.png);
+                    border-image-slice:30 30;
+                    border-image-repeat:stretch;
+                    border-image-width:30px;
+                    border-image-outset:0;*/ }
+        .jgldq .screen1 .content > div > div p {
+          font-size: 22px;
+          color: #ee2b30;
+          line-height: 35px;
+          width: 625px;
+          position: relative;
+          display: box;
+          display: -moz-box;
+          display: -webkit-box;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          box-pack: start;
+          -ms-box-pack: start;
+          -moz-box-pack: start;
+          -webkit-box-pack: start;
+          justify-content: flex-start;
+          -ms-justify-content: flex-start;
+          -moz-justify-content: flex-start;
+          -webkit-justify-content: flex-start;
+          -webkit-box-align: start;
+          align-items: flex-start;
+          -moz-align-items: flex-start;
+          -webkit-align-items: flex-start; }
+          .jgldq .screen1 .content > div > div p span {
+            display: block; }
+            .jgldq .screen1 .content > div > div p span:nth-of-type(1) {
+              width: 115px; }
+            .jgldq .screen1 .content > div > div p span:nth-of-type(2) {
+              width: 509px;
+              text-align: justify; }
+        .jgldq .screen1 .content > div > div .fish {
+          position: absolute;
+          right: -3px;
+          top: -3px; }
+        .jgldq .screen1 .content > div > div .chicken {
+          position: absolute;
+          left: 1px;
+          bottom: 0; }
+
+.jgldq .screen2 {
+  width: 100%;
+  font-weight: bold; }
+  .jgldq .screen2 .content {
+    width: 100%;
+    height: 2110px;
+    background-color: #c40026;
+    background-image: url(./img/j_screen2_bg.png);
+    background-size: cover;
+    background-position: center; }
+    .jgldq .screen2 .content .nav {
+      width: 1100px;
+      margin: 0 auto;
+      display: box;
+      display: -moz-box;
+      display: -webkit-box;
+      display: flex;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      box-pack: justify;
+      -ms-box-pack: justify;
+      -moz-box-pack: justify;
+      -webkit-box-pack: justify;
+      justify-content: space-between;
+      -ms-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -webkit-justify-content: space-between;
+      -webkit-box-align: center;
+      align-items: center;
+      -moz-align-items: center;
+      -webkit-align-items: center;
+      padding-top: 50px; }
+      .jgldq .screen2 .content .nav div, .jgldq .screen2 .content .nav a {
+        display: block;
+        width: 530px;
+        height: 70px;
+        background-color: #ff531e;
+        padding: 5px; }
+        .jgldq .screen2 .content .nav div p, .jgldq .screen2 .content .nav a p {
+          width: 100%;
+          height: 100%;
+          background-image: url(./img/j_screen2_tab_bg.png);
+          color: #fff6c1;
+          font-size: 22px;
+          text-align: center;
+          line-height: 60px; }
+        .jgldq .screen2 .content .nav div.activeNav, .jgldq .screen2 .content .nav a.activeNav {
+          background-color: #fdd430; }
+          .jgldq .screen2 .content .nav div.activeNav p, .jgldq .screen2 .content .nav a.activeNav p {
+            color: #c2092c; }
+
+.jgldq .screen3 {
+  width: 100%;
+  font-weight: bold; }
+  .jgldq .screen3 .content {
+    width: 100%;
+    height: 584px;
+    padding-top: 54px;
+    background-color: #c40026;
+    background-image: url(./img/j_screen3_bg.png);
+    background-size: cover;
+    background-position: center; }
+    .jgldq .screen3 .content .screen3Content {
+      height: 230px; }
+      .jgldq .screen3 .content .screen3Content:nth-of-type(2) {
+        margin-top: 20px; }
+      .jgldq .screen3 .content .screen3Content > div {
+        display: box;
+        display: -moz-box;
+        display: -webkit-box;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        box-pack: justify;
+        -ms-box-pack: justify;
+        -moz-box-pack: justify;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -ms-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        padding: 0 35px 0 45px;
+        color: #ee2b30; }
+        .jgldq .screen3 .content .screen3Content > div p {
+          font-size: 20px;
+          line-height: 33px;
+          width: 700px;
+          font-weight: 600; }
+
+.jgldq .screen4 {
+  width: 100%;
+  font-weight: bold; }
+  .jgldq .screen4 .content {
+    width: 100%;
+    height: 540px;
+    padding-top: 50px;
+    background-color: #c40026;
+    background-image: url(./img/j_screen4_bg.png);
+    background-size: cover;
+    background-position: center; }
+    .jgldq .screen4 .content .screen4Content {
+      height: 440px; }
+      .jgldq .screen4 .content .screen4Content > div {
+        display: box;
+        display: -moz-box;
+        display: -webkit-box;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        box-pack: center;
+        -ms-box-pack: center;
+        -moz-box-pack: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -ms-justify-content: center;
+        -moz-justify-content: center;
+        -webkit-justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center; }
+
+.wine, .tea {
+  width: 1100px;
+  margin: 0 auto; }
+  .wine .detail, .tea .detail {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #fff7be;
+    padding: 30px 50px; }
+    .wine .detail .detailContent, .tea .detail .detailContent {
+      background-color: #fff;
+      padding: 10px;
+      margin-bottom: 30px; }
+      .wine .detail .detailContent:last-child, .tea .detail .detailContent:last-child {
+        margin-bottom: 0; }
+      .wine .detail .detailContent > div, .tea .detail .detailContent > div {
+        width: 100%;
+        height: 100%;
+        border-image: url(./img/j_border_bg.png) 29 29 stretch;
+        border-image-width: 29px;
+        position: relative;
+        padding: 29px 25px; }
+      .wine .detail .detailContent .detailTitle, .tea .detail .detailContent .detailTitle {
+        font-size: 22px;
+        color: #ee2b30; }
+    .wine .detail .content1, .tea .detail .content1 {
+      width: 100%;
+      height: 550px; }
+      .wine .detail .content1 .brand, .tea .detail .content1 .brand {
+        display: box;
+        display: -moz-box;
+        display: -webkit-box;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        box-pack: start;
+        -ms-box-pack: start;
+        -moz-box-pack: start;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        -ms-justify-content: flex-start;
+        -moz-justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -webkit-box-align: center;
+        align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        margin-top: -15px; }
+      .wine .detail .content1 .seckill, .tea .detail .content1 .seckill {
+        margin-top: 13px;
+        margin-bottom: 25px; }
+        .wine .detail .content1 .seckill div, .tea .detail .content1 .seckill div {
+          width: 100%;
+          margin-top: 18px;
+          display: box;
+          display: -moz-box;
+          display: -webkit-box;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          box-pack: justify;
+          -ms-box-pack: justify;
+          -moz-box-pack: justify;
+          -webkit-box-pack: justify;
+          justify-content: space-between;
+          -ms-justify-content: space-between;
+          -moz-justify-content: space-between;
+          -webkit-justify-content: space-between;
+          -webkit-box-align: center;
+          align-items: center;
+          -moz-align-items: center;
+          -webkit-align-items: center; }
+    .wine .detail .content2, .tea .detail .content2 {
+      width: 100%;
+      height: auto; }
+      .wine .detail .content2 > div, .tea .detail .content2 > div {
+        padding: 26px 20px; }
+        .wine .detail .content2 > div .content2Top, .tea .detail .content2 > div .content2Top {
+          display: box;
+          display: -moz-box;
+          display: -webkit-box;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          box-pack: justify;
+          -ms-box-pack: justify;
+          -moz-box-pack: justify;
+          -webkit-box-pack: justify;
+          justify-content: space-between;
+          -ms-justify-content: space-between;
+          -moz-justify-content: space-between;
+          -webkit-justify-content: space-between;
+          -webkit-box-align: end;
+          align-items: flex-end;
+          -moz-align-items: flex-end;
+          -webkit-align-items: flex-end;
+          padding-left: 6px; }
+          .wine .detail .content2 > div .content2Top .detailDate, .tea .detail .content2 > div .content2Top .detailDate {
+            color: #ee2b30;
+            font-size: 14px;
+            font-weight: bold; }
+        .wine .detail .content2 > div .content2Videos, .tea .detail .content2 > div .content2Videos {
+          width: 100%;
+          height: auto;
+          margin-top: 27px;
+          display: box;
+          display: -moz-box;
+          display: -webkit-box;
+          display: flex;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          box-pack: justify;
+          -ms-box-pack: justify;
+          -moz-box-pack: justify;
+          -webkit-box-pack: justify;
+          justify-content: space-between;
+          -ms-justify-content: space-between;
+          -moz-justify-content: space-between;
+          -webkit-justify-content: space-between;
+          -webkit-box-align: start;
+          align-items: flex-start;
+          -moz-align-items: flex-start;
+          -webkit-align-items: flex-start; }
+          .wine .detail .content2 > div .content2Videos .videoBox, .tea .detail .content2 > div .content2Videos .videoBox {
+            width: 183px; }
+            .wine .detail .content2 > div .content2Videos .videoBox .videoMask, .tea .detail .content2 > div .content2Videos .videoBox .videoMask {
+              width: 100%;
+              height: 118px;
+              background-size: cover;
+              background-position: center;
+              display: box;
+              display: -moz-box;
+              display: -webkit-box;
+              display: flex;
+              display: -ms-flexbox;
+              display: -webkit-flex;
+              box-pack: center;
+              -ms-box-pack: center;
+              -moz-box-pack: center;
+              -webkit-box-pack: center;
+              justify-content: center;
+              -ms-justify-content: center;
+              -moz-justify-content: center;
+              -webkit-justify-content: center;
+              -webkit-box-align: center;
+              align-items: center;
+              -moz-align-items: center;
+              -webkit-align-items: center;
+              cursor: pointer;
+              position: relative; }
+              .wine .detail .content2 > div .content2Videos .videoBox .videoMask .play, .tea .detail .content2 > div .content2Videos .videoBox .videoMask .play {
+                width: 44px;
+                height: 44px; }
+              .wine .detail .content2 > div .content2Videos .videoBox .videoMask span, .tea .detail .content2 > div .content2Videos .videoBox .videoMask span {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                color: #fff;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 1;
+                padding: 5px;
+                background-color: rgba(0, 0, 0, 0.5); }
+            .wine .detail .content2 > div .content2Videos .videoBox p, .tea .detail .content2 > div .content2Videos .videoBox p {
+              font-size: 16px;
+              color: #ee2b30; }
+          .wine .detail .content2 > div .content2Videos .videosLeft, .tea .detail .content2 > div .content2Videos .videosLeft {
+            width: 536px;
+            height: 100%; }
+            .wine .detail .content2 > div .content2Videos .videosLeft .videoBox, .tea .detail .content2 > div .content2Videos .videosLeft .videoBox {
+              width: 100%; }
+              .wine .detail .content2 > div .content2Videos .videosLeft .videoBox .videoMask, .tea .detail .content2 > div .content2Videos .videosLeft .videoBox .videoMask {
+                width: 100%;
+                height: 299px;
+                background-image: url(./img/wine/wine_video_1.jpg); }
+                .wine .detail .content2 > div .content2Videos .videosLeft .videoBox .videoMask .play, .tea .detail .content2 > div .content2Videos .videosLeft .videoBox .videoMask .play {
+                  width: 60px;
+                  height: 60px; }
+                .wine .detail .content2 > div .content2Videos .videosLeft .videoBox .videoMask span, .tea .detail .content2 > div .content2Videos .videosLeft .videoBox .videoMask span {
+                  font-size: 22px;
+                  line-height: 1;
+                  padding: 10px; }
+            .wine .detail .content2 > div .content2Videos .videosLeft p, .tea .detail .content2 > div .content2Videos .videosLeft p {
+              margin-top: 10px; }
+          .wine .detail .content2 > div .content2Videos .videosRight, .tea .detail .content2 > div .content2Videos .videosRight {
+            width: 383px;
+            height: auto;
+            display: box;
+            display: -moz-box;
+            display: -webkit-box;
+            display: flex;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            box-pack: justify;
+            -ms-box-pack: justify;
+            -moz-box-pack: justify;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            -ms-justify-content: space-between;
+            -moz-justify-content: space-between;
+            -webkit-justify-content: space-between;
+            -webkit-box-align: start;
+            align-items: flex-start;
+            -moz-align-items: flex-start;
+            -webkit-align-items: flex-start;
+            box-lines: multiple;
+            -moz-box-lines: multiple;
+            /*Firefox*/
+            -webkit-box-lines: multiple;
+            /*Safari,Opera,Chrome*/
+            flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            -webkit-flex-wrap: wrap; }
+            .wine .detail .content2 > div .content2Videos .videosRight .videoBox, .tea .detail .content2 > div .content2Videos .videosRight .videoBox {
+              margin-bottom: 15px; }
+              .wine .detail .content2 > div .content2Videos .videosRight .videoBox p, .tea .detail .content2 > div .content2Videos .videosRight .videoBox p {
+                margin-top: 7px; }
+              .wine .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(1) .videoMask, .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(1) .videoMask {
+                background-image: url(./img/wine/wine_video_4.jpg); }
+              .wine .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(2) .videoMask, .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(2) .videoMask {
+                background-image: url(./img/wine/wine_video_3.jpg); }
+              .wine .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(3), .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(3) {
+                margin-bottom: 0; }
+                .wine .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(3) .videoMask, .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(3) .videoMask {
+                  background-image: url(./img/wine/wine_video_5.jpg); }
+              .wine .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(4), .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(4) {
+                margin-bottom: 0; }
+                .wine .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(4) .videoMask, .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(4) .videoMask {
+                  background-image: url(./img/wine/wine_video_2.jpg); }
+    .wine .detail .content3, .tea .detail .content3 {
+      width: 100%;
+      height: 290px; }
+      .wine .detail .content3 p, .tea .detail .content3 p {
+        color: #ee2b30;
+        font-size: 18px;
+        line-height: 35px;
+        position: relative;
+        display: box;
+        display: -moz-box;
+        display: -webkit-box;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        box-pack: start;
+        -ms-box-pack: start;
+        -moz-box-pack: start;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+        -ms-justify-content: flex-start;
+        -moz-justify-content: flex-start;
+        -webkit-justify-content: flex-start;
+        -webkit-box-align: start;
+        align-items: flex-start;
+        -moz-align-items: flex-start;
+        -webkit-align-items: flex-start; }
+        .wine .detail .content3 p span, .tea .detail .content3 p span {
+          display: block; }
+          .wine .detail .content3 p span:nth-of-type(2), .tea .detail .content3 p span:nth-of-type(2) {
+            width: 894px;
+            text-align: justify; }
+        .wine .detail .content3 p .bigText, .tea .detail .content3 p .bigText {
+          float: none;
+          font-size: 22px;
+          border-bottom: 2px #ee2b30 solid; }
+      .wine .detail .content3 .detailTitle, .tea .detail .content3 .detailTitle {
+        margin-top: -3px; }
+    .wine .detail .content4, .tea .detail .content4 {
+      width: 100%;
+      height: 455px; }
+      .wine .detail .content4 .detailTitle, .tea .detail .content4 .detailTitle {
+        line-height: 1; }
+      .wine .detail .content4 .content4Main, .tea .detail .content4 .content4Main {
+        width: 100%;
+        margin-top: 19px;
+        display: box;
+        display: -moz-box;
+        display: -webkit-box;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        box-pack: justify;
+        -ms-box-pack: justify;
+        -moz-box-pack: justify;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -ms-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center; }
+
+.tea .detail .content1 .seckill {
+  margin-top: 21px; }
+
+.tea .detail .content2 > div .content2Videos .videosLeft .videoBox .videoMask {
+  background-image: url(./img/tea/tea_video_1.jpg); }
+
+.tea .detail .content2 > div .content2Videos .videosRight .videoBox {
+  margin-bottom: 35px; }
+  .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(1) .videoMask {
+    background-image: url(./img/tea/tea_video_2.jpg); }
+  .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(2) .videoMask {
+    background-image: url(./img/tea/tea_video_3.jpg); }
+  .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(3) .videoMask {
+    background-image: url(./img/tea/tea_video_4.jpg); }
+  .tea .detail .content2 > div .content2Videos .videosRight .videoBox:nth-of-type(4) .videoMask {
+    background-image: url(./img/tea/tea_video_5.jpg); }
+
+.tea .detail .content4 .content4Main {
+  padding: 0 80px; }

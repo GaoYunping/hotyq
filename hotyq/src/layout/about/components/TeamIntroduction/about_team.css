@@ -1,0 +1,135 @@
+.teamIntroduction {
+  width: 1100px;
+  height: auto;
+  padding-left: 20px;
+  padding-top: 10px; }
+  .teamIntroduction dl {
+    width: 1060px;
+    height: 340px;
+    margin-bottom: 30px; }
+    .teamIntroduction dl dt {
+      float: left;
+      width: 340px;
+      height: 340px;
+      overflow: hidden; }
+      .teamIntroduction dl dt img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 0.4s linear; }
+    .teamIntroduction dl dd {
+      padding: 36px 30px 0 20px;
+      float: left;
+      height: 340px;
+      width: 720px;
+      border: 1px solid #eee;
+      border-left: none;
+      overflow: hidden; }
+      .teamIntroduction dl dd h3 {
+        font-size: 18px;
+        line-height: 1;
+        height: 1em;
+        color: #333;
+        font-weight: 600;
+        margin-bottom: 23px; }
+        .teamIntroduction dl dd h3 span {
+          font-weight: normal; }
+      .teamIntroduction dl dd .pTop {
+        margin-top: 63px; }
+      .teamIntroduction dl dd p {
+        width: 100%;
+        line-height: 28px;
+        font-size: 14px;
+        color: #333;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical; }
+      .teamIntroduction dl dd h5 {
+        height: 28px;
+        font-size: 14px;
+        color: #333;
+        line-height: 28px;
+        margin-top: 40px;
+        font-weight: normal; }
+    .teamIntroduction dl:hover {
+      box-shadow: 0 0 22px #f3f3f3; }
+      .teamIntroduction dl:hover dd {
+        border: 1px solid transparent;
+        border-left: none; }
+      .teamIntroduction dl:hover img {
+        transform: scale(1.2); }
+  .teamIntroduction dl:nth-child(even) dt {
+    float: right; }
+  .teamIntroduction dl:nth-child(even) dd {
+    float: right;
+    border: 1px solid #eee;
+    border-right: none; }
+  .teamIntroduction dl:nth-child(even):hover {
+    box-shadow: 0 0 22px #f3f3f3; }
+    .teamIntroduction dl:nth-child(even):hover dd {
+      border: 1px solid transparent;
+      border-right: none; }
+    .teamIntroduction dl:nth-child(even):hover img {
+      transform: scale(1.2); }
+  .teamIntroduction ul.staffBox {
+    overflow: hidden; }
+    .teamIntroduction ul.staffBox li {
+      height: 374px;
+      width: 340px;
+      margin-right: 20px;
+      margin-bottom: 24px;
+      overflow: hidden;
+      float: left; }
+      .teamIntroduction ul.staffBox li .imgWrap {
+        overflow: hidden;
+        width: 340px;
+        height: 270px; }
+      .teamIntroduction ul.staffBox li img {
+        float: left;
+        width: 340px;
+        height: 270px;
+        object-fit: cover;
+        transition: all 0.4s linear; }
+      .teamIntroduction ul.staffBox li .stafftxt {
+        float: left;
+        width: 340px;
+        height: 104px;
+        padding: 10px 12px;
+        overflow: hidden; }
+        .teamIntroduction ul.staffBox li .stafftxt h3 {
+          font-size: 16px;
+          font-weight: 600;
+          color: #313;
+          line-height: 24px;
+          height: 24px;
+          margin-bottom: 10px; }
+          .teamIntroduction ul.staffBox li .stafftxt h3 span {
+            font-size: 16px;
+            font-weight: normal; }
+        .teamIntroduction ul.staffBox li .stafftxt p {
+          width: 100%;
+          color: #5e5e5e;
+          font-size: 12px;
+          line-height: 16px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical; }
+      .teamIntroduction ul.staffBox li:hover {
+        box-shadow: 0 0 22px #f3f3f3; }
+        .teamIntroduction ul.staffBox li:hover img {
+          transform: scale(1.2); }
+  .teamIntroduction .imgBox {
+    margin-bottom: 100px; }
+    .teamIntroduction .imgBox img {
+      width: 700px; }
+    .teamIntroduction .imgBox p {
+      margin-top: 24px;
+      line-height: 1;
+      height: 1em;
+      font-size: 18px;
+      font-weight: 600;
+      color: #333; }

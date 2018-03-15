@@ -1,0 +1,455 @@
+@charset 'utf-8';
+@import "../App/global.scss";
+.jgldq{
+    .banner{
+        width: 100%;
+        height: 680px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .title{
+        width: 100%;
+        height: 120px;
+        background-image: url(./img/j_title_bg.png); 
+        background-size: cover;
+        background-position: center;
+        @include flexbox2(center,center,center,center);
+        img{
+            margin-top: 5px;
+        }
+    }
+    .jgldqContent{
+        background-color: #fff7be;
+        width: 1100px;
+        margin: 0 auto;
+        padding: 10px;
+        //margin-bottom: 30px;
+        &:last-child{
+            //margin-bottom: 0;
+        }
+        &>div{
+            width: 100%;
+            height: 100%;
+            border-image:url(./img/j_border_bg.png) 29 29 stretch;
+            border-image-width:29px;
+            position: relative;
+            //padding: 29px 25px;
+        }
+    }
+    .screen1{
+        width: 100%;
+        font-weight: bold;
+        .content{
+            width: 100%;
+            height: 470px;
+            background-color: #c40026;
+            background-image: url(./img/j_screen1_bg.png); 
+            background-size: cover;
+            background-position: center;
+            @include flexbox2(center,center,center,center);
+            &>div{
+                width: 1000px;
+                height: 370px;
+                background-color: #fff7be;
+                padding: 10px;
+                &>div{
+                    width: 100%;
+                    height: 100%;
+                    border-image:url(./img/j_border_bg.png) 29 29 stretch;
+                    border-image-width:29px;
+                    position: relative;
+                    padding: 30px 90px 30px 265px;
+                    //border: 30px;
+                    /*border-image-source:url(./img/j_border_bg.png);
+                    border-image-slice:30 30;
+                    border-image-repeat:stretch;
+                    border-image-width:30px;
+                    border-image-outset:0;*/
+                    p{
+                       font-size: 22px;
+                       color: #ee2b30;
+                       line-height: 35px;
+                       width: 625px;
+                       position: relative;
+                       @include flexbox2(start,flex-start,start,flex-start);
+                       &:last-child{
+                           //height: 140px;
+                       }
+                       span{
+                           //float: left;
+                           display: block;
+                           &:nth-of-type(1){
+                               width: 115px;
+                           }
+                           &:nth-of-type(2){
+                               width: 509px;
+                               text-align:justify;
+                               //position: absolute;
+                               //left: 110px;
+                           }
+                       }
+                    }
+                    .fish{
+                        position: absolute;
+                        right: -3px;
+                        top: -3px;
+                    }
+                    .chicken{
+                        position: absolute;
+                        left: 1px;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    .screen2{
+        width: 100%;
+        font-weight: bold;
+        .content{
+            width: 100%;
+            height: 2110px;
+            background-color: #c40026;
+            background-image: url(./img/j_screen2_bg.png); 
+            background-size: cover;
+            background-position: center;
+            .nav{
+                width: 1100px;
+                margin: 0 auto;
+                @include flexbox2(justify,space-between,center,center);
+                padding-top: 50px;
+                div,a{
+                    display: block;
+                    width: 530px;
+                    height: 70px;
+                    background-color: #ff531e;   
+                    padding: 5px; 
+                    p{
+                        width: 100%;
+                        height: 100%;
+                        background-image: url(./img/j_screen2_tab_bg.png);
+                        color: #fff6c1;
+                        font-size: 22px;
+                        text-align: center;
+                        line-height: 60px;
+                    }
+                    &.activeNav{
+                        background-color: #fdd430;
+                        p{
+                            color: #c2092c;
+                        }
+                    }
+                }
+    }
+        }
+    }
+    .screen3{
+        width: 100%;
+        font-weight: bold;
+        .content{
+            width: 100%;
+            height: 584px;
+            padding-top: 54px;
+            //@include flexbox-vertical-center();
+            background-color: #c40026;
+            background-image: url(./img/j_screen3_bg.png); 
+            background-size: cover;
+            background-position: center;
+            .screen3Content{
+                height: 230px;
+                &:nth-of-type(2){
+                    margin-top: 20px;
+                }
+                &>div{
+                    @include flexbox2(justify,space-between,center,center);
+                    padding: 0 35px 0 45px;
+                    color: #ee2b30;
+                    
+                    p{
+                        font-size: 20px;
+                        line-height: 33px;
+                        width: 700px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .screen4{
+        width: 100%;
+        font-weight: bold;
+        .content{
+            width: 100%;
+            height: 540px;
+            padding-top: 50px;
+            //@include flexbox-vertical-center();
+            background-color: #c40026;
+            background-image: url(./img/j_screen4_bg.png); 
+            background-size: cover;
+            background-position: center;
+            .screen4Content{
+                height: 440px;
+                &>div{
+                    @include flexbox2(center,center,center,center);
+                }
+            }
+        }
+    }
+}
+
+.wine,.tea{
+    width: 1100px;
+    margin: 0 auto;
+    
+    .detail{
+        width: 100%;
+        margin-top: 30px;
+        background-color: #fff7be;
+        padding: 30px 50px;
+        .detailContent{
+            background-color: #fff;
+            padding: 10px;
+            margin-bottom: 30px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+            &>div{
+                width: 100%;
+                height: 100%;
+                border-image:url(./img/j_border_bg.png) 29 29 stretch;
+                border-image-width:29px;
+                position: relative;
+                padding: 29px 25px;
+            }
+            .detailTitle{
+                font-size: 22px;
+                color: #ee2b30;
+            }
+        }
+        .content1{
+            width: 100%;
+            height: 550px;
+            .brand{
+                @include flexbox2(start,flex-start,center,center);
+                margin-top: -15px;
+            }
+            .seckill{
+                margin-top: 13px;
+                margin-bottom: 25px;
+                div{
+                    width: 100%;
+                    margin-top: 18px;
+                    @include flexbox2(justify,space-between,center,center);
+                }
+            }
+        }
+        .content2{
+            width: 100%;
+            height: auto;
+            &>div{
+                padding: 26px 20px;
+                .content2Top{
+                    @include flexbox2(justify,space-between,end,flex-end);
+                    padding-left: 6px;
+                    .detailDate{
+                        color: #ee2b30;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                }
+                .content2Videos{
+                    width: 100%;
+                    height: auto;
+                    margin-top: 27px;
+                    @include flexbox2(justify,space-between,start,flex-start);
+                    .videoBox{
+                        width: 183px;
+                        .videoMask{
+                            width: 100%;
+                            height: 118px;
+                            background-size: cover;
+                            background-position: center;
+                            @include flexbox2(center,center,center,center);
+                            cursor: pointer;
+                            position: relative;
+                            .play{
+                                width: 44px;
+                                height: 44px;
+                            }
+                            span{
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                                color: #fff;
+                                font-weight: normal;
+                                font-size: 13px;
+                                line-height: 1;
+                                padding: 5px;
+                                background-color: rgba(0,0,0,0.5);
+                            }
+                        }
+                        p{
+                            font-size: 16px;
+                            color: #ee2b30;
+                        }
+                    }
+                    .videosLeft{
+                        width: 536px;
+                        height: 100%;
+                        .videoBox{
+                            width: 100%;
+                            .videoMask{
+                                width: 100%;
+                                height: 299px;
+                                background-image: url(./img/wine/wine_video_1.jpg); 
+                                .play{
+                                    width: 60px;
+                                    height: 60px;
+                                }
+                                span{
+                                    font-size: 22px;
+                                    line-height: 1;
+                                    padding: 10px;
+                                }
+                            }
+                        }
+                        p{
+                            margin-top: 10px;
+                        }
+                    }
+                    .videosRight{
+                        width: 383px;
+                        height: auto;
+                        @include flexbox2(justify,space-between,start,flex-start);
+                        @include flexwrap();
+                        .videoBox{
+                            margin-bottom: 15px;
+                            p{
+                                margin-top: 7px;
+                            }
+                            &:nth-of-type(1){
+                                .videoMask{
+                                    background-image: url(./img/wine/wine_video_4.jpg); 
+                                }
+                            }
+                            &:nth-of-type(2){
+                                .videoMask{
+                                    background-image: url(./img/wine/wine_video_3.jpg); 
+                                }
+                            }
+                            &:nth-of-type(3){
+                                margin-bottom: 0;
+                                .videoMask{
+                                    background-image: url(./img/wine/wine_video_5.jpg); 
+                                }
+                            }
+                            &:nth-of-type(4){
+                                margin-bottom: 0;
+                                .videoMask{
+                                    background-image: url(./img/wine/wine_video_2.jpg); 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content3{
+            width: 100%;
+            height: 290px;
+            p{
+                color: #ee2b30;
+                font-size: 18px;
+                line-height: 35px;
+                position: relative;
+                @include flexbox2(start,flex-start,start,flex-start);
+                &:last-child{
+                    //height: 70px;
+                }
+                span{
+                   //float: left;
+                   display: block;
+                   &:nth-of-type(2){
+                       width: 894px;
+                       text-align:justify;
+                       //position: absolute;
+                       //left: 30px;
+                   }
+                }
+                .bigText{
+                    float: none;
+                    font-size: 22px;
+                    border-bottom: 2px #ee2b30 solid;
+                }
+            }
+            .detailTitle{
+                margin-top: -3px;
+            }
+        }
+        .content4{
+            width: 100%;
+            height: 455px;
+            .detailTitle{
+                line-height: 1;
+            }
+            .content4Main{
+                width: 100%;
+                margin-top: 19px;
+                @include flexbox2(justify,space-between,center,center);
+            }
+        }
+    }
+}
+
+.tea{
+    .detail{
+        .content1{
+            .seckill{
+                margin-top: 21px;
+            }
+        }
+        .content2{
+            &>div{
+                .content2Videos{
+                    .videosLeft{
+                        .videoBox{
+                            .videoMask{
+                                background-image: url(./img/tea/tea_video_1.jpg);
+                            }
+                        }
+                    }
+                    .videosRight{
+                        .videoBox{
+                            margin-bottom: 35px;
+                            &:nth-of-type(1){
+                                .videoMask{
+                                    background-image: url(./img/tea/tea_video_2.jpg); 
+                                }
+                            }
+                            &:nth-of-type(2){
+                                .videoMask{
+                                    background-image: url(./img/tea/tea_video_3.jpg); 
+                                }
+                            }
+                            &:nth-of-type(3){
+                                .videoMask{
+                                    background-image: url(./img/tea/tea_video_4.jpg); 
+                                }
+                            }
+                            &:nth-of-type(4){
+                                .videoMask{
+                                    background-image: url(./img/tea/tea_video_5.jpg); 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content4{
+            .content4Main{
+                padding: 0 80px;
+            }
+        }
+    }
+}

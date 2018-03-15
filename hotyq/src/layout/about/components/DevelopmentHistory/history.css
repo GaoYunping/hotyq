@@ -1,0 +1,108 @@
+.wrap {
+  padding-top: 20px;
+  margin-bottom: 30px; }
+  .wrap::after {
+    content: "";
+    display: block;
+    clear: both; }
+  .wrap .annual {
+    float: left;
+    padding-left: 60px;
+    width: 220px; }
+    .wrap .annual li {
+      width: 26px;
+      font-size: 18px;
+      height: 50px;
+      margin-bottom: 30px;
+      line-height: 26px;
+      font-weight: 600;
+      color: #999;
+      writing-mode: tb-rl;
+      text-align: center;
+      cursor: pointer; }
+    .wrap .annual li.annualActive {
+      color: #ff665e;
+      font-size: 25px; }
+  .wrap .course {
+    float: left;
+    width: 660px; }
+    .wrap .course dl {
+      width: 660px;
+      height: 210px;
+      margin-bottom: 40px; }
+      .wrap .course dl dt {
+        width: 280px;
+        height: 210px;
+        overflow: hidden;
+        position: relative; }
+        .wrap .course dl dt img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+        .wrap .course dl dt div {
+          position: absolute;
+          height: 44px;
+          width: 100%;
+          bottom: -44px;
+          left: 0px;
+          transition: 0.5s; }
+        .wrap .course dl dt span {
+          position: absolute;
+          height: 44px;
+          height: 44px;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          background: #ff665e;
+          opacity: 0.7; }
+        .wrap .course dl dt p {
+          position: absolute;
+          height: 44px;
+          bottom: 0px;
+          left: 0px;
+          padding: 2px 15px;
+          line-height: 20px;
+          color: #fff;
+          font-size: 12px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical; }
+      .wrap .course dl dd {
+        width: 330px;
+        height: 100%;
+        color: #666;
+        overflow: hidden; }
+        .wrap .course dl dd span {
+          display: block;
+          width: 330px;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 46px;
+          height: 50px;
+          margin-bottom: 16px;
+          border-bottom: 1px solid #d8d8d8; }
+        .wrap .course dl dd p {
+          width: 270px;
+          line-height: 22px;
+          font-size: 14px;
+          color: #333;
+          height: 132px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 6;
+          -webkit-box-orient: vertical; }
+      .wrap .course dl:nth-child(odd) dt {
+        float: right; }
+      .wrap .course dl:nth-child(odd) dd {
+        float: right; }
+      .wrap .course dl:nth-child(even) dt {
+        float: left; }
+      .wrap .course dl:nth-child(even) dd {
+        float: left; }
+        .wrap .course dl:nth-child(even) dd span {
+          text-align: right; }
+        .wrap .course dl:nth-child(even) dd p {
+          float: right; }

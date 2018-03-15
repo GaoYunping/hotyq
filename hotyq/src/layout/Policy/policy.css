@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.policyWrap {
+  width: 980px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 770px;
+  overflow: hidden; }
+  .policyWrap .breadNav {
+    width: 980px;
+    height: 30px;
+    margin: 20px auto; }
+    .policyWrap .breadNav a {
+      display: inline-block;
+      color: #333333;
+      font-size: 16px; }
+      .policyWrap .breadNav a:hover {
+        color: #f74e47;
+        /*text-decoration: underline;*/ }
+    .policyWrap .breadNav span {
+      display: inline-block;
+      color: #f74e47;
+      font-size: 16px; }
+    .policyWrap .breadNav span.jt {
+      display: inline-block;
+      color: #333333;
+      font-size: 16px; }
+
+.line {
+  width: 800px;
+  margin: 60px auto;
+  height: auto;
+  border-bottom: 1px solid #eeeeee; }
+
+/*服务协议*/
+.contentInfo {
+  width: 938px;
+  padding: 10px 30px 50px 30px;
+  height: auto;
+  border: 1px solid #eeeeee;
+  margin-bottom: 40px; }
+  .contentInfo h2 {
+    width: 100%;
+    margin: 30px auto;
+    height: 40px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eeeeee;
+    text-align: center;
+    color: #000; }
+  .contentInfo p {
+    width: 100%;
+    color: #4c4c4c;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 14px;
+    line-height: 30px; }
+  .contentInfo p.txtIn {
+    text-indent: 2em; }
+  .contentInfo h3 {
+    margin: 30px 0px 10px 0px;
+    color: #000;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px; }
+  .contentInfo h4 {
+    margin: 45px 0px 30px 0px;
+    color: #000;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px; }
+  .contentInfo h5 {
+    margin: 0px 0px 10px 0px;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal; }
+  .contentInfo h6 {
+    margin: 20px 0px 10px 0px;
+    color: #ff3300;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: normal; }

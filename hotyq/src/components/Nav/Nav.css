@@ -1,0 +1,91 @@
+.headWrap {
+  width: 100%;
+  height: 76px;
+  background-color: #000; }
+  .headWrap .headCon {
+    width: 1100px;
+    margin: 0 auto;
+    height: 76px; }
+    .headWrap .headCon ul.headConSelect {
+      float: right;
+      height: 100%; }
+      .headWrap .headCon ul.headConSelect li {
+        float: left;
+        vertical-align: top;
+        height: 100%;
+        overflow: hidden; }
+        .headWrap .headCon ul.headConSelect li > a {
+          cursor: pointer;
+          display: block;
+          padding: 31px 12px;
+          overflow: hidden;
+          position: relative; }
+          .headWrap .headCon ul.headConSelect li > a:after {
+            content: "";
+            display: block;
+            height: 6px;
+            width: 100%;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            left: -100%; }
+        .headWrap .headCon ul.headConSelect li a:hover:after {
+          -webkit-animation: showCenter ease-in-out 0.7s 1 forwards; }
+        .headWrap .headCon ul.headConSelect li a {
+          line-height: 1;
+          font-size: 16px;
+          color: #fff; }
+        .headWrap .headCon ul.headConSelect li a.active {
+          font-weight: 900; }
+    .headWrap .headCon .commLogo {
+      float: left;
+      height: 76px;
+      line-height: 76px; }
+      .headWrap .headCon .commLogo img {
+        width: 157px;
+        vertical-align: middle; }
+
+.headConSelectR {
+  padding-top: 20px;
+  float: right; }
+  .headConSelectR .registerBtn {
+    float: right;
+    width: 76px;
+    height: 36px;
+    border: 1px solid #dc3b23;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #dc3b23;
+    cursor: pointer; }
+  .headConSelectR .manageBtn {
+    float: left;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    background: #dc3b23;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    margin-left: 15px;
+    border-radius: 4px;
+    margin-right: 20px;
+    overflow: hidden; }
+    .headConSelectR .manageBtn a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: #fff; }
+
+@-webkit-keyframes showType {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-webkit-keyframes showCenter {
+  0% { }
+  100% {
+    left: 0;
+    right: 0; } }

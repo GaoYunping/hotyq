@@ -1,0 +1,156 @@
+.containWrap {
+  width: 100%;
+  background: #414141; }
+
+.castingWrap {
+  width: 1100px;
+  margin: 0 auto;
+  height: 5820px;
+  background: url(./img/back.png) no-repeat center top;
+  position: relative;
+  padding-top: 150px;
+  padding-left: 84px; }
+
+.castingLogo {
+  width: 914px;
+  height: 460px;
+  background: url(./img/logo.png) no-repeat center top;
+  margin-bottom: 220px; }
+
+.castingIntroduce {
+  width: 914px;
+  height: 572px;
+  background: url(./img/introduce.png) no-repeat center top;
+  margin-bottom: 116px;
+  padding-top: 170px; }
+
+.castingIntroduce p {
+  width: 720px;
+  line-height: 70px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #f29119;
+  text-indent: 2em;
+  text-align: left; }
+
+.castingFeature {
+  width: 914px;
+  height: 1076px;
+  background: url(./img/feature.png) no-repeat right top;
+  margin-bottom: 124px; }
+
+.castingRecommend {
+  width: 914px;
+  margin-bottom: 210px; }
+
+.recommendTitle {
+  width: 100%;
+  height: 128px;
+  font-size: 0px;
+  background: url(./img/recommend.png) no-repeat center top;
+  margin-bottom: 42px; }
+
+.recommendContent {
+  padding-left: 48px; }
+
+.recommendContent dl {
+  margin-bottom: 30px;
+  height: 96px;
+  width: 860px;
+  position: relative; }
+
+.recommendContent dt {
+  box-sizing: border-box;
+  float: left;
+  width: 96px;
+  height: 96px;
+  border: 3px solid #fff;
+  border-radius: 5px; }
+
+.recommendContent dt img {
+  width: 100%;
+  height: 100%; }
+
+.recommendContent dd {
+  position: absolute;
+  bottom: 0;
+  left: 140px;
+  font-size: 19px;
+  color: #f29119;
+  max-height: 96px;
+  text-align: left; }
+
+.recommendContent dd h5 {
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 1em;
+  height: 1em; }
+
+.recommendContent dd p {
+  height: 1em;
+  line-height: 1em;
+  margin-top: 15px; }
+
+.recommendFooter {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  margin-top: 73px; }
+
+.castingDirector {
+  width: 914px;
+  height: 500px; }
+
+.directorTitle {
+  width: 914px;
+  height: 118px;
+  background: url(./img/choosable.png) no-repeat center top;
+  font-size: 0;
+  margin-bottom: 52px; }
+
+.directorContent {
+  width: 914px;
+  height: 600px;
+  padding-left: 85px; }
+
+.directorContent dl {
+  float: left;
+  border-right: 1px solid #f29119;
+  font-size: 12px;
+  color: #f29119;
+  line-height: 1em;
+  text-align: left; }
+
+.directorContent dl dd:last-child {
+  margin-bottom: 0; }
+
+.directorContent dt {
+  margin-bottom: 20px;
+  text-align: left;
+  height: 1em; }
+
+.directorContent dd {
+  margin-bottom: 20px;
+  height: 1em; }
+
+.DirectorName {
+  padding-right: 20px; }
+
+.worksName {
+  padding-left: 5px;
+  width: 143px; }
+
+.worksName dt {
+  padding-left: 10px; }
+
+.typeName {
+  width: 69px;
+  padding-left: 15px; }
+
+.directName {
+  width: 109px;
+  padding-left: 16px; }
+
+.directorContent .crewName {
+  padding-left: 20px;
+  border-right: none; }

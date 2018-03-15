@@ -1,0 +1,158 @@
+@charset "UTF-8";
+.banner {
+  width: 1100px;
+  height: 400px;
+  margin: 0 auto; }
+  .banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; }
+
+.conWrap {
+  width: 1100px;
+  margin: 0 auto;
+  padding-bottom: 340px; }
+  .conWrap .tit {
+    height: 42px;
+    margin: 50px 0 30px; }
+    .conWrap .tit img {
+      height: 42px; }
+  .conWrap .conText {
+    font-size: 16px;
+    color: #333;
+    height: 60px;
+    line-height: 30px;
+    width: 540px;
+    margin-bottom: 14px; }
+  .conWrap .conTextB {
+    height: 50px;
+    line-height: 50px;
+    color: #333;
+    font-size: 16px;
+    font-family: "黑体", 'Franklin Gothic Medium', 'Arial Narrow'; }
+  .conWrap .sectionF {
+    padding: 0 20px; }
+    .conWrap .sectionF dl {
+      margin-top: 30px;
+      height: 240px; }
+      .conWrap .sectionF dl img {
+        width: 400px;
+        height: 240px; }
+      .conWrap .sectionF dl.left {
+        position: relative; }
+        .conWrap .sectionF dl.left dt {
+          left: 0;
+          top: 0;
+          width: 400px;
+          height: 240px;
+          position: absolute; }
+        .conWrap .sectionF dl.left dd {
+          position: absolute;
+          left: 400px;
+          top: 0;
+          width: 532px;
+          height: 240px;
+          text-align: right; }
+          .conWrap .sectionF dl.left dd p:nth-of-type(1) {
+            font-size: 16px;
+            color: #666;
+            vertical-align: top;
+            height: 38px;
+            font-weight: 700;
+            border-bottom: 1px solid #d8d8d8; }
+          .conWrap .sectionF dl.left dd p:nth-of-type(2) {
+            position: absolute;
+            text-align: justify;
+            right: 0;
+            width: 232px;
+            font-size: 14px;
+            color: #333;
+            margin-top: 20px;
+            line-height: 20px; }
+      .conWrap .sectionF dl.right {
+        position: relative; }
+        .conWrap .sectionF dl.right dt {
+          right: 0;
+          top: 0;
+          position: absolute;
+          width: 400px;
+          height: 240px; }
+        .conWrap .sectionF dl.right dd {
+          right: 400px;
+          top: 0;
+          position: absolute;
+          width: 532px;
+          height: 240px; }
+          .conWrap .sectionF dl.right dd p:nth-of-type(1) {
+            font-size: 16px;
+            color: #666;
+            vertical-align: top;
+            height: 38px;
+            font-weight: 700;
+            border-bottom: 1px solid #d8d8d8; }
+          .conWrap .sectionF dl.right dd p:nth-of-type(2) {
+            position: absolute;
+            text-align: justify;
+            left: 0;
+            width: 232px;
+            font-size: 14px;
+            color: #333;
+            margin-top: 20px;
+            line-height: 20px; }
+  .conWrap .sectionS {
+    padding: 0 20px;
+    overflow: hidden; }
+    .conWrap .sectionS ul {
+      width: 120%; }
+    .conWrap .sectionS li {
+      float: left;
+      width: 332px;
+      height: 240px;
+      border-radius: 4px;
+      margin-right: 32px;
+      margin-bottom: 32px;
+      position: relative;
+      overflow: hidden; }
+      .conWrap .sectionS li > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .conWrap .sectionS li i {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #34434c;
+        opacity: 0.88; }
+      .conWrap .sectionS li div {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding-top: 58px;
+        text-align: center; }
+        .conWrap .sectionS li div img {
+          width: 52px;
+          height: 52px;
+          margin-bottom: 8px; }
+        .conWrap .sectionS li div h4 {
+          line-height: 34px;
+          font-size: 18px;
+          font-weight: 600;
+          color: #fff; }
+        .conWrap .sectionS li div p {
+          max-width: 170px;
+          font-size: 14px;
+          line-height: 20px;
+          display: inline-block;
+          text-align: left;
+          color: #fff;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 4; }
